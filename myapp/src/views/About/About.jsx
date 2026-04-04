@@ -1,12 +1,15 @@
 import "./About.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-
+import BodyContainer from "../../components/BodyContainer/BodyContainer";
+import PageTitle from "../../components/PageTitle/PageTitle";
 
 function About () {
     return <div>
-        <Navbar></Navbar>
-            <h1>About Us</h1>
+        <Navbar active="about"/>
+        <PageTitle title={"Learn More About Us"} subtitle={"We are dedicated to providing the best service."}/>
+        <BodyContainer>
+            </BodyContainer>
         <Footer />
 
        

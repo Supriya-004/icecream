@@ -5,7 +5,7 @@ import About from "./views/About/About";
 import Contact from "./views/Contact/Contact";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
-import OurServices from "./views/OurServices/OurServices.jsx";
+import OurServices from "./views/OurServices/OurServices";
 
 const root = createRoot(document.getElementById("root"));
 

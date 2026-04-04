@@ -1,1 +1,31 @@
+.navbar{
+    background-color: #ffa31a;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin: 20px;
+    color: #000;
+}
 
+.menu-item{
+    text-decoration: none;
+    color: #333333;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu-item:hover{
+color: #1a1a1a;
+transition: 0.3s;
+}
+
+.menu-icon{
+ height: 16px;
+}
+
+.active-menu{
+    color: #1a1a1a;
+    font-weight: bold;
+    position: relative;
+    top:3px;
+}
