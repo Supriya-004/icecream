@@ -98,3 +98,42 @@ const OUR_SERVICES=[
 }
 ];
 export {PRODUCTS , OUR_SERVICES};
+
+export const CONTACT = {
+  phone: "+91 9876543210",
+  email: "icecreamshop@gmail.com",
+  address: "Sangamner, Maharashtra",
+};
+
+export const ABOUT = [
+  {
+    id: 1,
+    title: "Who We Are",
+    description:
+      "We are passionate about making delicious ice creams with love and high-quality ingredients."
+  },
+  {
+    id: 2,
+    title: "Our Mission",
+    description:
+      "To deliver happiness through every scoop and maintain top quality in every product."
+  },
+  {
+    id: 3,
+    title: "Our Vision",
+    description:
+      "To become the most loved ice cream brand by offering unique and tasty flavors."
+  },
+  {
+    id: 4,
+    title: "Quality Ingredients",
+    description:
+      "We use only fresh and natural ingredients to ensure the best taste and health."
+  },
+  {
+    id: 5,
+    title: "Customer Love",
+    description:
+      "Our customers are our priority and we strive to make every visit memorable."
+  }
+];
